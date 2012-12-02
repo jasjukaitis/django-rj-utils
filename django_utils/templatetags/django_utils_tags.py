@@ -14,3 +14,11 @@ def field_display(field):
                 return c[1]
     else:
         return field.data
+
+
+@register.simple_tag
+def mask_email_address(address):
+    """Returns a spam bot safe email address."""
+    address = address.replace('@', ' [at] ')
+    address = address[::-1].replace('.', ' [dot] '[::-1], 1)
+    return address[::-1]
