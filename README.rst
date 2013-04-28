@@ -9,13 +9,13 @@ Installation
 
 Using pip::
 
-  pip install https://github.com/raphaa/django-utils/zipball/master#egg=django-utils
+  pip install https://github.com/raphaa/django-rj-utils/zipball/master#egg=django-rj-utils
 
 
 Configuration
 -------------
 
-Just add ``django_utils`` to the list of ``INSTALLED_APPS`` :)
+Just add ``django_rj_utils`` to the list of ``INSTALLED_APPS`` :)
 
 
 License
